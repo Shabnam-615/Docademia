@@ -365,7 +365,7 @@ export default function Results({ data, onReset }) {
     { id: "people", label: "People", icon: "👤", ref: peopleRef },
   ];
 
-  const label = {
+  const { value } = {
     fontSize: 11, fontWeight: 600, color: COLORS.muted,
     textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 16,
     textAlign: "center"
