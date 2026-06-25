@@ -13,7 +13,7 @@ export default function Upload({ setData, setLoading, loading }) {
     const form = new FormData();
     form.append("file", file);
     try {
-      const res = await axios.post("http://localhost:8000/analyze", form, { timeout: 180000 });
+      const res = await axios.post("https://shabnam-615-docademia-backend.hf.space/analyze",form,{ timeout: 180000 });
       setData(res.data);
     } catch (e) {
       alert("Something went wrong. Make sure your backend is running.");
