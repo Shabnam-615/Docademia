@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: #faf8f3;
+  color: #2c2c2c;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #faf8f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #b8d4c8;
+  border-radius: 10px;
+}
