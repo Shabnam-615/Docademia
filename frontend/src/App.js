@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react';
 import Upload from "./pages/Upload";
 import Results from "./pages/Results";
 
